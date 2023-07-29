@@ -9,7 +9,7 @@ def hello_world():
     return render_template("index.html")
 database={'nachi':'123','james':'aac','karthik':'asdsf'}
 
-@app.route('/form_login',methods=['POST','GET'])
+@app.route('/form_Login',methods=['POST','GET'])
 def login():
     name1=request.form['username']
     pwd=request.form['password']
